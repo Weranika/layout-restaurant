@@ -1,0 +1,118 @@
+/******************************************
+************footer***********************/
+.footer-info {
+    width: 1399px;
+    height: 443px;
+    border-top: 0.5px solid #b9b9b9;
+    border-right: 0.5px solid #b9b9b9;
+    margin-top: 20px;   
+    margin-top: 83px;
+}
+.donate {    
+    text-align: right;
+    background: url(../assets/images/donate.png) no-repeat 465px 35px;
+    height: 244px;
+    font-family: "TitilliumWeb Regular";
+    font-size: 14px;
+    color: #7a7a7a;
+    letter-spacing: 0.1px;
+    padding: 19px 22px 27px 0;
+}
+.footer-table {
+    display: flex;
+}
+.contacts {
+    margin-left: 200px;
+    font-family: "TitilliumWeb Regular";
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 23px;
+    border-left: 0.5px solid #b9b9b9;
+    padding: 0 20px;
+}
+.contacts  a {
+    font-family: "TitilliumWeb Bold";
+    color: #5c5c5c;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+}
+.support {
+    padding-top: 23px;
+    letter-spacing: 0.1px;
+}
+.contacts .bold-mail {
+    letter-spacing: 0.1px;
+    text-decoration: solid underline  #dedede;   
+}
+.writeMe {
+    margin-top: -8px;
+}
+.links a{  
+    font-family: "TitilliumWeb SemiBold";
+    font-size: 14px;
+    color: #5c5c5c;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+    line-height: 23px;
+    padding-right: 6px;
+}
+.links a::after {
+    content: '•';
+    position: relative;
+    left: 6.5px;
+}
+.links li{
+    list-style-type: none;
+    text-align: right;
+}
+.links{    
+    text-align: right;
+    margin-top: -5px;
+}
+h5 {
+    font-family: "TitilliumWeb Bold";
+    color: #5c5c5c;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.company {
+    width: 467px;
+    padding-right: 26px;
+    border-right: 0.5px solid #b9b9b9;    
+}
+.legal {
+    width: 223.5px;   
+}
+.neutronMail {
+    width: 202px;   
+}
+.footer-legals {
+    width: 946px;
+    height: 200px;
+    border-right: 0.5px solid #b9b9b9;    
+}
+.footer-socials {
+    display: flex;    
+    padding: 74px 0 16px 201px;
+}
+.footer-legals li {
+    list-style-type: none;
+}
+.footer-legals li a{    
+    font-family: "TitilliumWeb Regular";
+    font-size: 12px;
+    color: #5c5c5c;    
+    text-decoration-color: #dedede;
+}
+.footer-socials > li:not(:last-child)::after {
+    content: '/';
+    padding: 0px 11px 0 13px;
+    letter-spacing: 1.5px;
+}
+.footer-legals div {
+    padding-left: 201px;
+    font-family: "TitilliumWeb Regular";
+    font-size: 12px;
+    color: #5c5c5c;    
+    letter-spacing: 0.1px;
+}

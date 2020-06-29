@@ -1,0 +1,336 @@
+/***********************main****************************/
+.main {
+    width: 1400px;
+    margin: 160px auto;
+    text-align: center;
+}
+h1 {
+    font-family: "TitilliumWeb SemiBold";
+    color: #636363;
+    font-size: 60px;    
+    letter-spacing: 0.6px; 
+    text-align: center;
+    text-shadow: #636363 0 0 1px;
+    margin-bottom: 7px;
+}
+.based {
+    font-family: "TitilliumWeb SemiBold";
+    color: #636363;
+    font-size: 36.5px;      
+    padding: 0 0 50px 1px;
+}
+.somewhere {
+    color: #fc2028;    
+}
+.letter-e {
+    letter-spacing: -0.3px; 
+}
+.main-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/images/gradientUnderButton.png);
+    background-repeat: no-repeat;
+    background-position: 384px 45px;
+    height: 100px;
+    margin-bottom: 200px;
+}
+.create-account {    
+    width: 247px;    
+    background: linear-gradient(270deg, rgba(95, 46, 105, 0.95), rgba(100, 108, 146, 0.95));    
+    letter-spacing: 0.2px; 
+    margin-right: 25px;
+    box-shadow: 1px 9px 25px 3px #677da7;
+    padding-bottom: 3px;
+}
+.main-info a {
+    text-decoration: none;
+}
+.main-info .fa-apple {
+    margin-right: 22px;
+    font-size: 23px;
+}
+.main-info i {
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    background-color: rgba(126, 83, 130, 0.95);   
+    text-align: center;
+    font-size: 22px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;        
+}
+/******************about block***********************/
+ .about {
+    display: grid;    
+    width: 100%;
+    max-width: 1800px;
+    margin: -1px auto;
+    grid-template-columns: 200px 515px 432px 460px 192px;
+    grid-template-rows: 140px 77px 214px 173px;
+    grid-template-areas: 'empty-1   empty-1           empty-2            empty-2          empty-6'                        
+                         'empty-3   swiss-privacy     double-encryption  anonymous-email  empty-4'
+                         'empty-3   privacy-content   encryption-content email-content    empty-4'
+                         'empty-3   physical-security physical-security  empty-5          empty-4';
+}
+.about div {    
+    font-family: "TitilliumWeb Regular";
+    font-size: 14px;    
+    color: #959393;
+    margin-top: -6px;
+}
+h4 {
+    font-family: "TitilliumWeb Regular";
+    font-size: 30px;    
+    color: #555555;
+}
+.about-greed-empty-1 {
+    grid-area: empty-1;
+    border-right: 0.5px solid #b9b9b9;
+}
+.about-greed-empty-2 {
+    grid-area: empty-2;
+}
+.about-greed-empty-6 {
+    grid-area: empty-6;
+    border-bottom: 0.5px solid #b9b9b9;
+}
+.about-greed-empty-3 {
+    grid-area: empty-3;
+    border-bottom: 0.5px solid #b9b9b9;
+}
+.swiss-privacy {
+    grid-area: swiss-privacy;
+    border-right: 0.5px solid #b9b9b9;
+    padding-left: 181px;
+    letter-spacing: 0.4px; 
+    background: url(../assets/images/swiss_priv.png) no-repeat;
+    background-position: 108px -5px;
+}
+.swiss-privacy > div, .double-encryption > div, .anonymous-email > div {
+    font-family: "TitilliumWeb Regular";
+    font-size: 18px;
+    color: #959393;
+    margin-top: -2px;
+    letter-spacing: 0.23px; 
+}
+.double-encryption {
+    grid-area: double-encryption;
+    border-right: 0.5px solid #b9b9b9;
+    letter-spacing: 0.4px; 
+    background: url(../assets/images/encryption.png) no-repeat;
+    background-position: 17px -13px;
+    padding-left: 104px;
+}
+.anonymous-email {
+    grid-area: anonymous-email;
+    letter-spacing: 0.4px; 
+    background: url(../assets/images/key.png) no-repeat;
+    background-position: 34px -2px;
+    padding-left: 109px;
+}
+.about-greed-empty-4 {
+    grid-area: empty-4;    
+}
+.content {
+    letter-spacing: 0.14px;
+    line-height: 22.5px; 
+}
+.swiss-privacy-content{
+    grid-area: privacy-content;    
+    padding: 7px 28px 0 122px;    
+}
+.double-encryption-content {
+    grid-area: encryption-content;    
+    border-right: 0.5px solid #b9b9b9;    
+    padding: 7px 45px 0 45px;    
+}
+.anonymous-email-content {
+    grid-area: email-content;
+    padding: 7px 44px 0 50px;    
+}
+.physical-security{
+    grid-area: physical-security;
+    border-right: 0.5px solid #b9b9b9;
+    border-bottom: 0.5px solid #b9b9b9;
+}
+.about-greed-empty-5 {
+    grid-area: empty-5;
+}
+h2 {
+    font-family: "TitilliumWeb Light";
+    color: #535353;
+    font-size: 57px;   
+    margin: -3px 0 0 473px;
+    letter-spacing: 2.49px;
+}
+.physical-security > div{
+    font-family: "TitilliumWeb Regular";
+    font-size: 24px;
+    line-height: 22.2px;
+    color: #959393;
+    margin: 13px 43px;
+    text-align: right;
+    letter-spacing: 0.24px;
+}
+.most-secure {
+    color: #f65151;
+}
+.learn-more {
+    border: 0.5px solid #b9b9b9;
+    height: 62px;
+    width: 334px;
+    border-radius: 50px;
+    padding-left: 28px;
+    position: relative;
+    padding-top: 18px;
+    letter-spacing: 0.36px;
+    box-sizing: border-box;
+    left: 974px;
+    top: -25px;
+    background-color: #fff;
+}
+.learn-more a {
+    text-decoration: none;
+    font-family: "TitilliumWeb Regular";
+    font-size: 16px;
+    color: #676767;    
+}
+.learn-more a span{
+    letter-spacing: 0.29px;
+}
+
+/**********************blog block***********************/
+.sponsors{
+    background: url(../assets/images/forbes.png) no-repeat left;
+    height: 145px;
+    margin: -26px 0 0 21px;
+}
+.blog {
+    background: url(../assets/images/nout.png) no-repeat 951px 147px;
+    z-index: -0;
+    height: 815px;
+}
+.device {
+    position: relative;
+    z-index: 1;
+    top: -1002px;
+}
+.cite {
+    padding: 19px 0 8px 403px;
+    letter-spacing: 0.25px;
+    line-height: 31px;
+    width: 540px;
+    font-family: "Malaga OT Reg Italic";
+    font-size: 24px;
+    color: #101010;
+    background: url(../assets/images/dots.png) no-repeat 364px 26px;       
+}
+cite {
+    padding-left: 403px;
+    font-family: "Malaga OT Reg Italic";
+    font-size: 16px;
+    color: #727272;
+    letter-spacing: 0.2px;
+}
+.device-info {    
+    position: relative;
+    z-index: 2;
+    top: -890px;
+    left: 662px;
+    width: 441px;
+    text-align: right;
+}
+.gradient {
+    position: relative;
+    background: url(../assets/images/main-gradient.png) no-repeat 0 118px;
+    z-index: -2;
+    height: 1000px;
+}
+h3 {
+    font-family: "TitilliumWeb Regular";
+    font-size: 36px;
+    color: #535353;   
+    letter-spacing: 0.56px;    
+    margin-right: -4px;
+}
+h3 > span {
+    letter-spacing: -0.2px;
+}
+.download {
+    font-family: "TitilliumWeb SemiBold";
+    font-size: 16px;
+    color: #959393; 
+    padding-top: 14px;     
+    line-height: 22.2px;
+}
+.battons-shop {
+    margin: 30px -4px 0 0;
+}
+.battons-shop a:first-child {
+    margin-right: 9px;
+}
+.line {
+    position: relative;    
+    z-index: -1;
+    right: 261px;
+    height: 1px;
+    width: 1400px;
+    border-bottom: 0.5px solid #b9b9b9;
+    bottom: 347px;
+    right: -400px;
+}
+
+/*******************privacy block***********************/
+.privacy {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+.privacy h3 {
+    letter-spacing: 0.34px;    
+    text-align: center;
+    margin-left: -2px;
+}
+.privacy div {
+    margin: 1px 0 38px 0;
+    font-family: "TitilliumWeb Regular";
+    font-size: 29px;
+    color: #7c7c7c;
+    letter-spacing: 0.2px;   
+    padding-left: 3px;
+}
+.button {
+    height: 57px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "TitilliumWeb Bold";
+    font-size: 18px;
+    border: none;
+}
+.upgrade-button {    
+    width: 247px;    
+    background: linear-gradient(270deg, rgba(95, 45, 105, 0.95), rgba(100, 108, 146, 0.95));
+    letter-spacing: 0.36px; 
+    margin: 0 46px 0 93px;
+    box-shadow: 1px 8px 16px 4px #808fba;
+    padding-left: 8px;
+}
+.privacy button i {
+    padding-right: 7px;
+}
+.donate-button {   
+    width: 167px;    
+    background: linear-gradient(270deg, rgba(94, 123, 234, 0.95), rgba(53, 187, 224, 0.95));   
+    letter-spacing: 0.36px;     
+    box-shadow: 1px 8px 16px 4px #7acecb;
+    padding-left: 9px;
+}
+.privacy button:first-child {
+    margin-right: 15px;
+}
+.fa-cloud-upload-alt {
+    font-size: 16px;
+}

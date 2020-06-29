@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-        
+    <link href="css/header&aside.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <title>Neutron mail</title>
 </head>
 <body>
     <header>
-        <div>
-            <a class="logo">neutron<span>Mail</span></a>
+        <div class="header-leftside">
+            <a class="logo">neutron<span class="logo-blue">Mail</span></a>
             <ul class="lang">
-                <li><a href="/">English</a></li>
+                <li><a href="/" class="active">English</a></li>
                 <li><a href="/">French</a></li>
                 <li><a href="/">Italian</a></li>
                 <li><a href="/">Polish</a></li>
@@ -23,39 +24,45 @@
                 <li><a href="/">About</a></li>
                 <li><a href="/">Security</a></li>
                 <li><a href="/">Blog</a></li>
-                <li><a href="/">CAreers</a></li>
+                <li><a href="/">Careers</a></li>
                 <li><a href="/">Support</a></li>
                 <li><a href="/">Donate</a></li>       
             </ul>
-            <div>
-                <div class="log-in">
+            <div class="log-in">
+                <div>
                     <a href="/"><i class="fas fa-sign-in-alt"></i></a>
-                    <div>Log in</div>                
+                    <div><a href="/">Log in</a></div>                
                 </div> 
                 <button class="sign-up">Sign up</button>       
             </div> 
         </nav>       
     </header>
 
+    <aside class="socials">
+        <ul>
+            <li><a href="https://plus.google.com/"><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+        </ul>
+    </aside>
+
     <main>
-        <h1>Secure Email Communication</h1>
-        <div>Based in Somewhere</div>
         <div class="main">
-            <div class="main-info">
-                <button class="create-account">Create account</button>
-                <a href="https://www.apple.com/shop"><i class="fab fa-apple"></i></a>
-                <a href="https://play.google.com/store"><i class="fab fa-google-play"></i></a>
-             </div>
-             <ul class="socials">
-                <li><a href="https://plus.google.com/"><i class="fab fa-google-plus-square"></i></a></li>
-                <li><a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
-            </ul>
+            <div class="main-container">
+                <h1>Secure Email Communication</h1>
+                <div class="based">Based in <span class="somewhere">Some<span class="letter-e">where</span></div>
+                <div class="main-info">
+                    <button class="create-account button">Create account</button>
+                    <a href="https://www.apple.com/shop"><i class="fab fa-apple"></i></a>
+                    <a href="https://play.google.com/store"><i class="fab fa-google-play"></i></a>
+                 </div>
+            </div>    
         </div>
 
         <section class="about">
             <div class="about-greed-empty-1"></div>
             <div class="about-greed-empty-2"></div>
+            <div class="about-greed-empty-6"></div>
             <div class="about-greed-empty-3"></div>
             <div class="swiss-privacy">                
                 <h4>Swiss Privacy</h4>
@@ -70,13 +77,13 @@
                 <div>Protect Your Privacy</div>    
             </div>
             <div class="about-greed-empty-4"></div>
-            <div class="swiss-privacy-content">NeutronMail is incorporated in Somewhere and all 
-                our servers are located in Switzerland. This means all user data is
+            <div class="swiss-privacy-content content">NeutronMail is incorporated in Somewhere and all 
+                our serv- ers are located in Switzerland. This means all user data is
                 protected by strict Swiss privacy laws.</div>
-            <div class="double-encryption-content">All emails are secured automatically with 
+            <div class="double-encryption-content content">All emails are secured automatically with 
                 end-to-end encryption. This means even we cannot decrypt and read your emails. 
                 As a result, your encrypted emails cannot be shared with third parties.</div>   
-            <div class="anonymous-email-content">No personal information is required to create
+            <div class="anonymous-email-content content">No personal information is required to create
                  your secure email account. By default, we do not keep any IP logs which can 
                  be linked to your anonymous email account. Your privacy comes first.</div>
             <div class="physical-security">
@@ -84,96 +91,98 @@
                 <div>NeutronMail's infrastructure resides in Europe's<span class="most-secure">
                     most secure</span></br>datacenter, underneath 1000 meters of solid rock.</div>
             </div>
-            <div class="learn-more">Learn more about our security features</div>
+            <div class="about-greed-empty-5"></div>
+            <div class="learn-more"><a href="/">Learn more a<span>bout</span> our security features</a></div>
         </section>    
         
         <section class="blog">            
             <div class="sponsors"></div>
+            <div class="gradient"></div>
+            <div class="line"></div>  
             <div class="device">
                 <div class="cite">A new email service being developed by a group from MIT and CERN 
                     promises to bring secure, encrypted email to the masses and keep sensitive 
                     information away from prying eyes.</div>
                 <p><cite>— Boston Herald</cite></p>    
             </div>
-            <div class="device">
-                <h3>Any device, anywhere</h3>
+            <div class="device-info">
+                <h3>Any device,<span> anywhere</span></h3>
                 <div class="download">The NeutronMail inbox is optimized for productivity. Each detail 
                     within our secure email service is optimized to help you better read,
                      organize, and send email.</div>
-                <a href="https://www.apple.com/shop"><img src="assets/images/appStore.png" alt="appStore"></a>
-                <a href="https://play.google.com/store"><img src="assets/images/googlePlay.png" alt="googlePlay"></a>
+                <div class="battons-shop">
+                    <a href="https://www.apple.com/shop"><img src="assets/images/appStore.png" alt="appStore"></a>
+                    <a href="https://play.google.com/store"><img src="assets/images/googlePlay.png" alt="googlePlay"></a>
+                </div>                              
             </div>
         </section>
 
         <div class="privacy">
             <h3>Privacy is a fundamental human right.</h3>
             <div>Your support helps us to protect privacy world-wide.</div>
-            <button class="upgrade-button"><i class="fas fa-cloud-upload-alt"></i>Upgrade to Paid Plan</button>
-            <button class="donate-button"><i class="fas fa-dollar-sign"></i>Donate</button>
+            <button class="upgrade-button button"><i class="fas fa-cloud-upload-alt"></i>Upgrade to Paid Plan</button>
+            <button class="donate-button button"><i class="fas fa-dollar-sign"></i>Donate</button>
         </div>
     </main>
 
     <footer>
         <section class="footer-help-us">
-            <div class="greed-footer">
-                <div class="donate">
-                    <div>Those, who help us secure your privacy</div>
-                    <img src="assets/images/donate.png">
-                </div>
+            <div class="footer-info">
+                <div class="donate">Those, who help us secure your privacy</div>                   
 
-                <div class="empty"></div>                
-            
-                <div class="contacts">
-                    <span class="writeMe">General: <a href="mailto:contact@neutronmail.ch" class="bold">contact@neutronmail.ch</a></span>
-                    <span class="writeMe">Media: <a href="media@neutronmail.ch" class="bold">media@neutronmail.ch</a></span>
-                    <span class="writeMe">Security: <a href="security@neutronmail.ch" class="bold">security@neutronmail.ch</a></span>
-                    <div class="support">For support inquiries, please visit</div>
-                    <a href="neutronmail.com/support" class="bold">neutronmail.com/support</a>
-                </div>
+                <div class="footer-table">
+                    <div class="contacts">
+                        <div class="writeMe">General: <a href="mailto:contact@neutronmail.ch" class="bold">contact@neutronmail.ch</a></div>
+                        <div>Media: <a href="mailto:media@neutronmail.ch" class="bold">media@neutronmail.ch</a></div>
+                        <div>Security: <a href="mailto:security@neutronmail.ch" class="bold">security@neutronmail.ch</a></div>
+                        <div class="support">For support inquiries, please visit</div>
+                        <a href="neutronmail.com/support" class="bold-mail">neutronmail.com/support</a>
+                    </div>
 
-                <div class="links company">
-                    <h5>Company</h5>
-                    <ul>
-                        <li><a href="/">Blog</a></li>
-                        <li><a href="/">Team</a></li>
-                        <li><a href="/">Careers</a></li>
-                        <li><a href="/">Support</a></li>
-                        <li><a href="/">Donate</a></li>
-                    </ul>
-                </div>
-
-                <div class="links legal">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="/">Imprint</a></li>
-                        <li><a href="/">Privacy Policy</a></li>
-                        <li><a href="/">Terms & Conditions</a></li>
-                        <li><a href="/">Transparency Report</a></li>
-                        <li><a href="/">Report Abuse</a></li>
-                    </ul>
-                </div>
-
-                <div class="links neutronMail">
-                    <h5>NeutronMail</h5>
-                    <ul>
-                        <li><a href="/">Pricing</a></li>
-                        <li><a href="/">Security</a></li>
-                        <li><a href="/">Shop</a></li>
-                        <li><a href="/">Press/Media Kit</a></li>
-                        <li><a href="/">Onion Site</a></li>
-                    </ul>
-                </div>
+                    <div class="links company">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="/">Blog</a></li>
+                            <li><a href="/">Team</a></li>
+                            <li><a href="/">Careers</a></li>
+                            <li><a href="/">Support</a></li>
+                            <li><a href="/">Donate</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="links legal">
+                        <h5>Legal</h5>
+                        <ul>
+                            <li><a href="/">Imprint</a></li>
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                            <li><a href="/">Transparency Report</a></li>
+                            <li><a href="/">Report Abuse</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="links neutronMail">
+                        <h5>NeutronMail</h5>
+                        <ul>
+                            <li><a href="/">Pricing</a></li>
+                            <li><a href="/">Security</a></li>
+                            <li><a href="/">Shop</a></li>
+                            <li><a href="/">Press/Media Kit</a></li>
+                            <li><a href="/">Onion Site</a></li>
+                        </ul>
+                    </div>
+                </div>                
 
                 <div class="footer-legals">
                     <ul class="footer-socials">
-                        <li><a href="https://facebook.com/">Facebook    /    </a></li>
-                        <li><a href="https://twitter.com">Twitter    /    </a></li>
-                        <li><a href="https://plus.google.com/">Google+    /    </a></li>
-                        <li><a href="/">Feedback Forum    /    </a></li>
+                        <li><a href="https://facebook.com/">Facebook</a></li>
+                        <li><a href="https://twitter.com">Twitter</a></li>
+                        <li><a href="https://plus.google.com/">Google+</a></li>
+                        <li><a href="/">Feedback Forum</a></li>
                         <li><a href="https://www.reddit.com/">Reddit</a></li>
                     </ul>
-                </div>
-                <div>© 2017 Neutron Technologies AG. All Rights Reserved.</div>                
+                    <div>© 2017 Neutron Technologies AG. All Rights Reserved.</div>    
+                </div>                            
             </div>
         </section>                
     </footer>
