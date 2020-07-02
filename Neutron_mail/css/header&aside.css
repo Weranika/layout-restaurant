@@ -26,8 +26,10 @@ body {
     background-image: url(../assets/images/main.png);   
     background-position: top center;
     background-repeat: no-repeat;    
-    width: 1800px;   
+    max-width: 1800px;   
     margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /***********************header***********************************/
@@ -35,12 +37,12 @@ body {
 header {
     display: flex;
     height: 70px;    
-    width: 1400px;
+    max-width: 1400px;
     margin: 77px auto;
 }
 .header-leftside {
     text-align: left;
-    margin-right: 493px;
+    margin-right: 25.69vw;
 }
 .logo {
     font-family: "TitilliumWeb Bold";
@@ -62,6 +64,10 @@ header {
 .lang > li > a{
     color: #959595;
     text-decoration: none;
+}
+.lang > li > a:hover, .socials a:hover, .log-in a:hover,
+.logo:hover, .navigation ul > li > a:hover {
+    color: #f65151;
 }
 .lang > li:not(:last-child)::after {
     content: '/';
@@ -93,6 +99,10 @@ header {
     list-style-type: none;
     padding-right: 26px;
     text-decoration: none;
+}
+.logo:hover {    
+    text-shadow: 2px 2px 12px #b6d4e2;
+    cursor: pointer;
 }
 .navigation li:nth-child(2) {
     letter-spacing: 0.5px;   
@@ -137,12 +147,18 @@ header {
     padding-bottom: 7px;
     letter-spacing: 0.5px; 
 }
+button:hover {
+    background: linear-gradient(150deg, #b10656, #d4bc31);
+    box-shadow: 0 11px 20px #292c3a;
+    cursor: pointer;
+}
+
 /***********************aside***********************************/
 .socials {
     position: fixed;   
-    top: 321px;
-    width: 100%;
-    max-width: 1800px;
+    top: 321px;  
+    right: 2.7vw;     
+    z-index: 0;
 }
 .socials a {
     text-decoration: none;

@@ -1,0 +1,248 @@
+@media all and (max-width: 767px) and (min-width: 540px) {
+    body {
+        max-width: 767px;   
+        margin: 0 auto;
+        background-position: 35% 46%;        
+        width: 100%;
+        overflow-x: hidden;
+    }  
+    header {        
+        margin: 23px 17px;
+        display: block;
+    }     
+    .header-leftside {        
+        display: flex;
+        justify-content: space-between;
+        margin: 28px 0;
+    }
+    .lang {        
+        font-size: 11px;
+    }
+    .lang > li:not(:last-child)::after {        
+        padding: 0 5px;
+    }
+    .navigation ul > li > a {
+        padding-right: 12px;
+    }
+    .log-in {       
+        margin-top: 0px;
+    }
+    .navigation {        
+        font-size: 2.4vw;
+        justify-content: space-between;
+    }
+    .socials ul {        
+        margin-right: 9px;
+        font-size: 16px;        
+    }
+    .socials{        
+        position: absolute;   
+        top: 196px;    
+    }    
+    .sign-up {
+        width: 91px;
+        height: 36px;        
+        font-size: 14px;        
+    }
+    .main {
+        max-width: 1199px;
+        width: 100%;
+        margin: 85px auto;        
+    }    
+    h1 {
+        font-size: 6vw;
+    }
+    .based {        
+        font-size: 4.5vw;
+    }
+    .main-info {        
+        background-position: -23px 45px;        
+        width: 579px;
+        margin: 0 auto;
+        margin-bottom: 30vw;
+    }
+    .log-in {        
+        margin-left: 0px;
+    }
+    .about {      
+        display: block;    
+        width: 69%;
+        max-width: 767px;  
+        width: 70vw;
+    }
+    .about-greed-empty-1 {        
+        border-right: none;
+    }
+    .about-greed-empty-6 {
+        border-bottom: none;
+    }
+    .about-greed-empty-3 {        
+        border-bottom: none;
+    }   
+    h4 {        
+        font-size: 22px;
+    }
+    .swiss-privacy > div, .double-encryption > div, .anonymous-email > div {        
+        font-size: 15px;
+        padding-top: 5px;        
+    }    
+    .swiss-privacy, .double-encryption, .anonymous-email {
+        width: 242px;
+        margin: 0 auto;
+    }
+    .swiss-privacy {
+        padding-left: 108px;
+        background-position: 33px -9px;
+        border-right: none;
+    }
+    .double-encryption {   
+        border-right: none;
+    }
+    .anonymous-email {
+        background-position: 30px -10px;
+    }
+    .swiss-privacy h4 {
+        padding-bottom: 5px;
+    }
+   .content {
+       margin-bottom: 34px;
+       padding: 36px 8px 0 5px;
+       text-align: center;
+       border-right: none;
+   }
+    h2 {        
+        margin: 0 auto;
+        font-size: 5.5vw;
+        text-align: center;
+    }
+    .physical-security {
+        border: none;
+    }
+    .physical-security > div {        
+        font-size: 2.5vw;   
+        margin: 24px 8px;
+        text-align: center;
+    }
+    .learn-more {        
+        position: inherit;
+        margin: 0 auto;
+    }
+    .sponsors, .device {
+        display: none;
+    }
+    .blog {
+        background: none;
+        max-width: 767px;
+        width: 100%;
+        height: auto;
+        margin-top: 66px;
+    }   
+    .gradient {        
+        background: url(../assets/images/main-gradient.png) no-repeat 0 97px;
+    }    
+    .device-info { 
+        position: inherit;
+        margin: 0 auto;
+        text-align: center;
+        width: 77vw;    
+    }    
+    .battons-shop {
+        margin: 30px -5px 0 0;
+    }
+    .line, .gradient {        
+        position: inherit;
+        display: none;
+    }
+    .privacy {
+        width: 80vw;        
+        padding-top: 55px;
+    }
+    h3 {   
+        font-size: 4.5vw;        
+    }
+    .privacy div {        
+        font-size: 3.5vw;
+    }
+    .upgrade-button {
+        width: 198px;
+        font-size: 13px;
+        margin: 0 30px 0 13vw;
+    }  
+    .donate-button {
+        width: 122px;        
+        font-size: 13px;
+    }
+    .footer-info {        
+        max-width: 98%;        
+    }    
+    .contacts {
+        margin-left: 16px;
+    }
+    .links a {        
+        padding-right: 5px;
+    }
+    .donate {        
+        background: url(../assets/images/donate.png) no-repeat 2vw 20px;
+        clear: both;
+        padding: 0px 22px 26px 0;
+        height: 175px;
+        background-size: contain;
+    }
+    .contacts {
+        margin-left: 19px;
+    }
+    .company {
+        width: 29vw;
+    }
+    .footer-info {
+        border: none;        
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer-info div {
+        border: none;        
+    }
+    .donate {
+        display: none;
+    }
+    .footer-table {
+        display: block;        
+    }
+    .contacts {
+        margin: 64px 0 40px 0px;
+    }
+    .links {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;        
+    }
+    .legal {
+        margin: 30px auto;
+    }
+    .links ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 75%;        
+    }
+    .links ul li {
+        margin-right: 5px;
+        text-align: left;
+    }
+    .links a::after {
+        content: none;
+    }
+    h5 {
+        margin-right: 10px;
+    }
+    .footer-legals {
+        width: 100%;
+        height: auto;
+    }
+    .footer-socials {        
+        padding: 59px 0 0 1px;
+    }
+    .footer-legals div {
+        padding: 10px 0;
+    }
+}

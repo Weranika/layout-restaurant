@@ -1,0 +1,281 @@
+@media all and (max-width: 539px) {
+    body {
+        max-width: 539px;   
+        margin: 0 auto;
+        background-position: 46% 26%;
+        width: 100%;
+        background-size: 220%;
+        overflow-x: hidden;
+    }  
+    .logo {        
+        font-size: 6vw;
+        margin-left: 0px;
+    }
+    header {        
+        margin: 23px 8px;
+        display: block;
+        max-width: 539px;
+    }     
+    .header-leftside {        
+        display: flex;
+        justify-content: space-between;
+        margin: 28px 0;
+    }
+    .lang {        
+        font-size: 11px;
+        margin: 7px 0 0 1px;
+    }
+    .lang > li:not(:last-child)::after {        
+        padding: 0 5px;
+    }
+    .navigation ul > li > a {
+        padding-right: 10px;
+    }
+    .log-in {       
+        margin-top: 0px;
+        width: auto;
+    }
+    .log-in > div > a {
+        font-size: 2.4vw;
+    }
+    .log-in a {
+        font-size: 2vw;
+    }
+    .navigation {        
+        font-size: 2.4vw;
+        justify-content: space-between;
+    }    
+    .socials{        
+        display: none;  
+    }    
+    .sign-up {
+        width: 67px;
+        height: 20px;
+        font-size: 2.6vw;
+        margin: -3px 0;
+    }
+    .main {
+        max-width: 1199px;
+        width: 100%;
+        margin: 23vw auto;        
+    }    
+    h1 {
+        font-size: 6vw;
+    }
+    .based {        
+        font-size: 4.5vw;
+    }
+    .main-info {        
+        background: none;        
+        max-width: 100%;
+        margin: 0 auto;
+        margin-bottom: 0;
+    }
+    .log-in {        
+        margin-left: 0px;
+    }
+    .create-account {
+        width: 174px;
+        margin-right: 6vw;
+    }
+    .button {      
+        font-size: 4vw;
+    }
+    .about {      
+        display: block;    
+        width: 69%;
+        max-width: 539px;  
+        width: 70vw;
+    }
+    .about div {        
+        font-size: 3vw;
+    }
+    .about-greed-empty-1 {        
+        border-right: none;
+    }
+    .about-greed-empty-6 {
+        border-bottom: none;
+    }
+    .about-greed-empty-3 {        
+        border-bottom: none;
+    }   
+    h4 {        
+        font-size: 5vw;
+    }
+    .swiss-privacy > div, .double-encryption > div, .anonymous-email > div {        
+        font-size: 4vw;
+        padding-top: 5px;        
+    }    
+    .swiss-privacy, .double-encryption, .anonymous-email {
+        width: 242px;
+        margin: 0 auto;
+        background-size: 20%;
+        border-right: none;
+        background-position: 0 -2px;
+        padding-left: 48px;
+    }
+    .swiss-privacy {
+        background-size: 16%;
+    }       
+   .content {
+       margin-bottom: 34px;
+       padding: 19px 8px 0 5px;
+       text-align: center;
+       border-right: none;
+   }
+    h2 {        
+        margin: 0 auto;
+        font-size: 5.5vw;
+        text-align: center;
+    }
+    .physical-security {
+        display: none;
+    }    
+    .learn-more {        
+        position: inherit;
+        margin: 0 auto;
+        padding: 2vw;
+        text-align: center;
+        height: 32px;
+        width: 70vw;
+    }
+    .learn-more a {        
+        font-size: 3vw;
+    }
+    .sponsors, .device {
+        display: none;
+    }
+    .blog {
+        background: none;
+        max-width: 539px;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    } 
+    .battons-shop a img {
+        width: 30vw;
+    }      
+    .device-info { 
+        position: inherit;
+        margin: 0 auto;
+        text-align: center;
+        width: 77vw;    
+    }    
+    .battons-shop {
+        margin: 30px -5px 0 0;
+    }
+    .line, .gradient {        
+        position: inherit;
+        display: none;
+    }
+    .privacy {
+        width: 80vw;        
+        padding-top: 55px;
+    }
+    h3 {   
+        font-size: 4.5vw;        
+    }
+    .privacy div {
+        font-size: 2.5vw;
+        text-align: center;
+        margin: 1px 0 12px 0;
+    }
+    .upgrade-button {
+        width: 45vw;
+        font-size: 3vw;
+        margin: 0 9px 0 0px;
+        height: 40px;
+    }  
+    .donate-button {
+        width: 30vw;        
+        font-size: 3vw;
+        height: 40px;
+    }
+    .footer-info {        
+        max-width: 98%;        
+    }    
+    .contacts {
+        margin-left: 16px;
+        font-size: 3vw;        
+        line-height: 16px;
+    }
+    .support {
+        padding-top: 10px;        
+    }
+    .links a {        
+        padding-right: 5px;
+    }
+    .donate {        
+        background: url(../assets/images/donate.png) no-repeat 2vw 20px;
+        clear: both;
+        padding: 0px 22px 26px 0;
+        height: 175px;
+        background-size: contain;
+    }
+    .contacts {
+        margin-left: 19px;
+    }
+    .company {
+        width: 29vw;
+    }
+    .footer-info {
+        border: none;        
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .footer-info div {
+        border: none;        
+    }
+    .donate {
+        display: none;
+    }
+    .footer-table {
+        display: block;        
+    }
+    .contacts {
+        margin: 64px 0 40px 0px;
+    }
+    .links {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;        
+    }
+    .legal {
+        margin: 6px auto;
+    }
+    .links ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 75%;        
+    }
+    .links ul li {
+        margin-right: 5px;
+        text-align: left;
+    }
+    .links a::after {
+        content: none;
+    }
+    .links a {        
+        font-size: 2.5vw;
+    }
+    h5 {
+        margin-right: 10px;
+        font-size: 3.7vw;
+    }
+    .footer-legals {
+        width: 100%;
+        height: auto;
+    }
+    .footer-socials {        
+        padding: 16px 0 0 1px;
+    }
+    .footer-legals div {
+        padding: 10px 0;
+        font-size: 2vw;
+    }
+    .footer-legals li a {        
+        font-size: 2.2vw;
+    }
+}

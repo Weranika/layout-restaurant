@@ -4,7 +4,13 @@
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/header&aside.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" rel="stylesheet" type="text/css">    
+    <link href="css/media-min-1450px.css" rel="stylesheet" type="text/css">
+    <link href="css/media-min-1200px.css" rel="stylesheet" type="text/css">
+    <link href="css/media-min-768px.css" rel="stylesheet" type="text/css">
+    <link href="css/mobile-media-min-540px.css" rel="stylesheet" type="text/css">
+    <link href="css/mobile-media-max-539px.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Neutron mail</title>
 </head>
@@ -21,12 +27,12 @@
         </div>
         <nav class="navigation">           
             <ul>                
-                <li><a href="/">About</a></li>
-                <li><a href="/">Security</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#security">Security</a></li>
                 <li><a href="/">Blog</a></li>
                 <li><a href="/">Careers</a></li>
                 <li><a href="/">Support</a></li>
-                <li><a href="/">Donate</a></li>       
+                <li><a href="#donate">Donate</a></li>       
             </ul>
             <div class="log-in">
                 <div>
@@ -59,7 +65,7 @@
             </div>    
         </div>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-greed-empty-1"></div>
             <div class="about-greed-empty-2"></div>
             <div class="about-greed-empty-6"></div>
@@ -68,25 +74,25 @@
                 <h4>Swiss Privacy</h4>
                 <div>Data Security and Neutrality</div>    
             </div>
+            <div class="swiss-privacy-content content">NeutronMail is incorporated in Somewhere and all 
+                our serv- ers are located in Switzerland. This means all user data is
+                protected by strict Swiss privacy laws.</div>
             <div class="double-encryption">                
                 <h4>Double Encryption</h4>
                 <div>Automatic Email Security</div>    
             </div>
+            <div class="double-encryption-content content">All emails are secured automatically with 
+                end-to-end encryption. This means even we cannot decrypt and read your emails. 
+                As a result, your encrypted emails cannot be shared with third parties.</div>   
             <div class="anonymous-email">                
                 <h4>Anonymous Email</h4>
                 <div>Protect Your Privacy</div>    
             </div>
-            <div class="about-greed-empty-4"></div>
-            <div class="swiss-privacy-content content">NeutronMail is incorporated in Somewhere and all 
-                our serv- ers are located in Switzerland. This means all user data is
-                protected by strict Swiss privacy laws.</div>
-            <div class="double-encryption-content content">All emails are secured automatically with 
-                end-to-end encryption. This means even we cannot decrypt and read your emails. 
-                As a result, your encrypted emails cannot be shared with third parties.</div>   
             <div class="anonymous-email-content content">No personal information is required to create
-                 your secure email account. By default, we do not keep any IP logs which can 
-                 be linked to your anonymous email account. Your privacy comes first.</div>
-            <div class="physical-security">
+                your secure email account. By default, we do not keep any IP logs which can 
+                be linked to your anonymous email account. Your privacy comes first.</div>
+            <div class="about-greed-empty-4"></div>
+            <div class="physical-security" id="security">
                 <h2>Physical Security</h2>
                 <div>NeutronMail's infrastructure resides in Europe's<span class="most-secure">
                     most secure</span></br>datacenter, underneath 1000 meters of solid rock.</div>
@@ -117,11 +123,11 @@
             </div>
         </section>
 
-        <div class="privacy">
+        <div class="privacy" id="donate">
             <h3>Privacy is a fundamental human right.</h3>
             <div>Your support helps us to protect privacy world-wide.</div>
             <button class="upgrade-button button"><i class="fas fa-cloud-upload-alt"></i>Upgrade to Paid Plan</button>
-            <button class="donate-button button"><i class="fas fa-dollar-sign"></i>Donate</button>
+            <button class="donate-button button" ><i class="fas fa-dollar-sign"></i>Donate</button>
         </div>
     </main>
 

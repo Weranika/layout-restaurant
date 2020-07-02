@@ -36,6 +36,9 @@
     text-decoration: none;
     letter-spacing: 0.2px;
 }
+.contacts a:hover, .links a:hover, .footer-legals li a:hover {
+    color: #f65151;
+}
 .support {
     padding-top: 23px;
     letter-spacing: 0.1px;
@@ -110,9 +113,9 @@ h5 {
     letter-spacing: 1.5px;
 }
 .footer-legals div {
-    padding-left: 201px;
-    font-family: "TitilliumWeb Regular";
+    padding-left: 200px;
+    font-family: "TitilliumWeb SemiBold";
     font-size: 12px;
     color: #5c5c5c;    
-    letter-spacing: 0.1px;
+    letter-spacing: 0.05px;
 }

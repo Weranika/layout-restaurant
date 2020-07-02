@@ -1,0 +1,84 @@
+@media screen and (max-width: 1799px) and (min-width: 1450px) {
+    body {
+        max-width: 1800px;   
+        margin: 0 auto;
+        background-position: 100% top;
+        width: 100%;
+    }     
+    header {       
+        margin: 77px auto;        
+        justify-content: space-between;      
+    }  
+    .about {       
+        grid-template-columns: minmax(5%, 15%) 400px 432px 460px minmax(5%, 15%);
+        max-width: 1799px;
+    }
+    .swiss-privacy {        
+        padding-left: 66px;       
+        background-position: -7px -5px;
+    }
+    .swiss-privacy-content {
+        padding: 7px 28px 0 7px;
+    }
+    h2 {
+        margin: -3px 0 0 358px;
+    }
+    .learn-more {        
+        left: 50vw;
+    }
+    .blog {
+        background: url(../assets/images/nout.png) no-repeat 52.2vw 147px;
+        max-width: 1799px;
+        width: 100%;
+    }
+    .cite {
+        padding: 21px 0 8px 21.3vw;
+        background: url(../assets/images/dots.png) no-repeat 19.1vw 28px;
+    }
+    .gradient {        
+        background: url(../assets/images/main-gradient.png) no-repeat 0 97px;
+    }
+    cite {
+        padding-left: 21vw;
+    }
+    .device-info {
+        left: 34.48vw;
+    }
+    .battons-shop {
+        margin: 30px -5px 0 0;
+    }
+    .line {        
+        width: 1282px;      
+        float: right;
+        right: 0;
+    }
+    .footer-info {
+        width: 1218px;
+    }    
+    .contacts {
+        margin-left: 16px;
+    }
+    .links a {        
+        padding-right: 5px;
+    }
+    .donate {        
+        background: url(../assets/images/donate.png) no-repeat 284px 16px;
+        clear: both;
+        padding: 0px 22px 26px 0;
+    }
+    .contacts {
+        margin-left: 19px;
+    }
+    .company {
+        width: 466px;
+    }
+    .footer-legals {
+        width: 765px;
+    }
+    .footer-socials {        
+        padding: 73px 0 16px 20px;
+    }
+    .footer-legals div {
+        padding-left: 19px;
+    }
+}
