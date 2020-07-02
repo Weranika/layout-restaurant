@@ -2,7 +2,8 @@
     body {
         max-width: 767px;   
         margin: 0 auto;
-        background-position: 35% 46%;        
+        background-position: 29% 25%;
+        background-size: 164%; 
         width: 100%;
         overflow-x: hidden;
     }  
